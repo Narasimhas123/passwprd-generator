@@ -5,7 +5,7 @@ const lowercaseElement = document.getElementById("lowercase");
 const numberElement = document.getElementById("numbers");
 const symbolsElement = document.getElementById("symbols");
 const generateElement = document.getElementById("generate");
-const clipboardElement = document.getElementById("clipboard");
+
 
 function getRandomLower() {
   return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
